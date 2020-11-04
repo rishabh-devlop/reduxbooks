@@ -1,0 +1,28 @@
+/*
+  px <-> em: http://pxtoem.com/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding-top: 2rem;;
+}
+
+.actions {
+  opacity: 0;
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
+tbody td a {
+  color:#222;
+  &:hover {
+    color: #222;
+  }
+}
